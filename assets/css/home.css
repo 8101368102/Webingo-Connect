@@ -1,0 +1,62 @@
+#home-container {
+  display: flex; }
+  #home-container #feed-posts {
+    width: 70%;
+    padding-left: 10rem;
+    padding-right: 5rem; }
+    #home-container #feed-posts h4 {
+      font-size: 2rem;
+      font-family: cursive;
+      font-style: italic;
+      color: antiquewhite; }
+    #home-container #feed-posts #new-post-form textarea {
+      display: flex;
+      background-image: linear-gradient(to top right, whitesmoke, grey);
+      border-color: black;
+      border-width: 2px;
+      font-family: sans-serif;
+      font-size: large;
+      color: black; }
+    #home-container #feed-posts #new-post-form input[type=submit] {
+      background-image: linear-gradient(to bottom, whitesmoke, blue);
+      padding: 8px;
+      border-radius: 10px;
+      color: #020258;
+      border-width: 3px;
+      border-color: black;
+      box-shadow: 0px 0px 2px 3px #5ba6fc; }
+    #home-container #feed-posts #posts-list-container {
+      background-image: linear-gradient(to top right, whitesmoke, lightpink);
+      overflow-wrap: break-word;
+      margin-right: 10rem;
+      margin-bottom: 2rem;
+      padding: 5px 20px 5px 5px;
+      border-radius: 2rem;
+      border-width: 2px;
+      border-color: black;
+      box-shadow: silver; }
+      #home-container #feed-posts #posts-list-container h2 {
+        text-align: center;
+        font-family: Arial;
+        font-style: oblique;
+        color: #2c032c; }
+      #home-container #feed-posts #posts-list-container ul li {
+        font-family: 'sans-serif';
+        font-style: normal;
+        color: #c5036b;
+        font-size: large;
+        justify-content: center; }
+  #home-container #user-friends {
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid lightgrey;
+    height: auto;
+    background-image: linear-gradient(to right, whitesmoke, grey); }
+    #home-container #user-friends h3 {
+      color: #2c032c; }
+    #home-container #user-friends p {
+      font-family: 'sans-serif';
+      font-style: normal;
+      color: #c5036b;
+      font-size: large;
+      justify-content: center; }

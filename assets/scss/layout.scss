@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    
+    
+
+    #layout-main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: inherit;
+    
+    background-image:linear-gradient(to top right,rgb(239, 47, 47), rgba(166, 7, 166, 0.728));
+    }
+}

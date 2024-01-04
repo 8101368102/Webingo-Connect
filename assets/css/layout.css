@@ -1,0 +1,8 @@
+body {
+  margin: 0; }
+  body #layout-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: inherit;
+    background-image: linear-gradient(to top right, #ef2f2f, rgba(166, 7, 166, 0.728)); }

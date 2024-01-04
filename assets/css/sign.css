@@ -1,0 +1,39 @@
+#sign-up {
+  text-align: center; }
+  #sign-up h1 {
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal; }
+  #sign-up input {
+    margin: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, whitesmoke, #6dd0f7);
+    color: #020258;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 0px 0px 2px 3px #5ba6fc; }
+  #sign-up input[type=submit] {
+    background-image: linear-gradient(to bottom, whitesmoke, blue); }
+
+#sign-in {
+  text-align: center; }
+  #sign-in h1 {
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal; }
+  #sign-in input {
+    margin: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, whitesmoke, #6dd0f7);
+    color: #020258;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 0px 0px 2px 3px #5ba6fc; }
+  #sign-in input[type=submit] {
+    background-image: linear-gradient(to bottom, whitesmoke, blue); }

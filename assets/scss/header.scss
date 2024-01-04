@@ -1,0 +1,48 @@
+#layout-header{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px 10px 40px ;
+        background-color:#2a0d91;
+        color:white;
+        box-shadow: 1px 1px 1px 1px gray;
+
+        .mini-logo{
+            p{
+                margin: 5px;
+                font-size: 1.4rem;
+                font-weight: bold;
+                font-family: cursive;
+                font-style: italic;
+                color: bisque
+                
+                
+            }
+        }
+
+        .auth-links{
+            ul{
+                margin: 5% 5px;
+                display: flex;
+                list-style-type:none;
+
+                li{
+                    margin-right: 20px;
+                    color: bisque;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        a{
+            color: bisque;
+            text-decoration: none;
+            transition:color 0.3s, border-bottom 0.2s;
+        }
+        a:hover{
+            color:lightgray;
+	        border-bottom: 1px solid lightgray;
+        }
+
+    }
+}
